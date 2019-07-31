@@ -14,6 +14,7 @@ class Buscador extends Component {
         this.props.valorBuscado(valor);
       }
 
+// Renderizado del componente.
       render() {
         return (
           <form onSubmit={this.obtenerDatos}>

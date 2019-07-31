@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 const Imagen = (props) => {
 
+    // Variables entregadas por la API en el Json del resultado de la búsqueda.
     const {largeImageURL, likes, previewURL, tags, views} = props.foto;
 
     return (
