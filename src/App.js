@@ -89,14 +89,14 @@ class App extends Component {
       <div className="app container">
         <div className="jumbotron">
           <p className="lead text-center">Buscador de Imágenes</p>
-            // Uso del componente Buscador.
+            {/* Uso del componente Buscador. */}
             <Buscador
               valorBuscado={this.datosBusqueda}
             />
 
         </div>
         <div className="row justify-content-center">
-            // Uso del componente Resultado.
+            {/* Uso del componente Resultado. */}
             <Resultado
               respuesta={this.state.imagenes}
               anterior={this.paginaAnterior}

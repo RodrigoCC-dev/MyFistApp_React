@@ -25,7 +25,7 @@ class Resultado extends Component{
               ))}
           </div>
           <div>
-              // Uso del componente Paginación.
+              {/* Uso del componente Paginación. */}
               <Paginacion
                   pagAnterior={this.props.anterior}
                   pagSiguiente={this.props.siguiente}
@@ -39,7 +39,7 @@ class Resultado extends Component{
     render() {
         return(
           <React.Fragment>
-              // Aplicación del método mostrarImagenes.
+              {/* Aplicación del método mostrarImagenes. */}
               {this.mostrarImagenes()}
           </React.Fragment>
         );
